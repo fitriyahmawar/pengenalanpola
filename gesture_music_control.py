@@ -155,6 +155,16 @@ while True:
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+   
+    # AUTO NEXT SONG
+    if not pygame.mixer.music.get_busy():
+        if pygame.mixer.music.get_pos() == -1: 
+            next_song()
+   
+    cv2.imshow("Gesture Music Control", frame)
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
 
 cap.release()
 cv2.destroyAllWindows()
