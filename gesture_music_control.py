@@ -151,11 +151,6 @@ while True:
     cv2.putText(frame, f"Now Playing: {os.path.basename(songs[current_index])}",
                 (10, 430), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2)
 
-    cv2.imshow("Gesture Music Control", frame)
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-   
     # AUTO NEXT SONG
     if not pygame.mixer.music.get_busy():
         if pygame.mixer.music.get_pos() == -1: 
@@ -167,4 +162,4 @@ while True:
         break
 
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
