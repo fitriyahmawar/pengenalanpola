@@ -32,6 +32,16 @@ Aplikasi ini merupakan sistem pengendalian musik berbasis gestur tangan mengguna
 
 Library dapat diinstal menggunakan pip sesuai kebutuhan.
 
+📁 Catatan
+
+1. Sumber musik berasal dari file yang tersimpan di laptop pengguna. Jika tidak ada file musik, maka lagu tidak dapat diputar.
+
+2. Tidak diperlukan folder musik tambahan
+
+3. Pastikan kamera tidak sedang digunakan oleh aplikasi lain saat program dijalankan
+   
+4. Jika pengguna belum memiliki file musik, pengguna dapat mengunduh contoh file lagu yang telah disediakan di repositori
+   
 ▶️ Cara Penggunaan
 
 1. Rekam Dataset Gesture
@@ -75,10 +85,3 @@ Library dapat diinstal menggunakan pip sesuai kebutuhan.
 
    c. Mengontrol pemutaran musik secara real-time berdasarkan gesture
 
-📁 Catatan
-
-1. Sumber musik berasal dari file yang tersimpan di laptop pengguna. Jika tidak ada file musik, maka lagu tidak dapat diputar.
-
-2. Tidak diperlukan folder musik tambahan
-
-3. Pastikan kamera tidak sedang digunakan oleh aplikasi lain saat program dijalankan
