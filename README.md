@@ -34,7 +34,7 @@ Library dapat diinstal menggunakan pip sesuai kebutuhan.
 
 📁 Catatan
 
-1. Sumber musik berasal dari file yang tersimpan di laptop pengguna. Jika tidak ada file musik, maka lagu tidak dapat diputar.
+1. Sumber musik berasal dari file lagu lokal yang tersimpan di laptop pengguna. Jika tidak ada file musik, maka lagu tidak dapat diputar.
 
 2. Tidak diperlukan folder musik tambahan
 
