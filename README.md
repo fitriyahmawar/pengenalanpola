@@ -85,3 +85,11 @@ Library dapat diinstal menggunakan pip sesuai kebutuhan.
 
    c. Mengontrol pemutaran musik secara real-time berdasarkan gesture
 
+4. Pembersihan Dataset Gesture (Opsional)
+
+   Membersihkan dataset gesture jika terdapat kesalahan saat perekaman
+
+         python clean_gesture_batches.py
+
+   Digunakan untuk membersihkan dataset gesture jika terjadi kesalahan saat perekaman. Script ini membantu merapikan data agar dataset lebih konsisten dan akurat untuk training model. Penggunaannya bersifat opsional dan hanya dijalankan jika diperlukan.
+
