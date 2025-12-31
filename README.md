@@ -77,7 +77,7 @@ Library dapat diinstal menggunakan pip sesuai kebutuhan.
 
 📁 Catatan
 
-1. Musik yang digunakan berasal dari sumber lokal bawaan program
+1. Sumber musik berasal dari file yang tersimpan di laptop pengguna. Jika tidak ada file musik, maka lagu tidak dapat diputar.
 
 2. Tidak diperlukan folder musik tambahan
 
